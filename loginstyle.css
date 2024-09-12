@@ -1,0 +1,249 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: #333;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: transparent;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: url(main-background-image.jpg);
+  background-size: cover;
+}
+
+.first .navbar ul {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+  margin-right: 100px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+nav ul li a:hover {
+  padding: 5px;
+  color: red;
+}
+
+nav h1 {
+  color: rgb(156, 69, 31);
+  margin-left: 100px;
+  font-size: 50px;
+}
+
+nav h1 span {
+  color: yellow;
+}
+
+nav label {
+  color: white;
+  margin-right: 50px;
+  display: none;
+}
+
+#click {
+  display: none;
+}
+
+/* Hero section */
+.first {
+  background: url("/main-background-image.jpg") no-repeat center center/cover;
+  height: 100vh;
+  position: relative;
+}
+
+.first .main-content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 500px;
+  justify-content: center;
+  margin: 80px;
+}
+
+.first .main-content h1 {
+  color: rgb(243, 188, 106);
+}
+
+.first .main-content .btn {
+  margin: 10px;
+  padding: 20px;
+  cursor: pointer;
+  background-color: orange;
+  margin-right: 200px;
+}
+
+.first .main-content .btn:hover {
+  background-color: brown;
+}
+
+.first .main-content h1 {
+  font-size: 45px;
+  margin: 10px;
+}
+
+.first .main-content p {
+  font-size: 25px;
+  margin: 5px;
+  color: white;
+}
+
+.first .main-content .mybtn {
+  background-color: lightgray;
+  text-decoration: none;
+  width: 100px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.first .main-content .mybtn:hover {
+  background-color: green;
+  color: white;
+}
+
+.first::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* opacity: 0.6; */
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.first * {
+  z-index: 10;
+}
+
+.login-d {
+  margin: 80px;
+  padding-left: 300px;
+  padding-right: 300px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: rgb(189, 143, 143);
+}
+
+.login-d h1 {
+  font-size: 40px;
+  text-align: center;
+  margin: 50px;
+}
+
+.login-d .input-box {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.login-d .input-box input {
+  width: 100%;
+  height: 50px;
+  background-color: rgb(222, 214, 203);
+}
+
+.login-d .input-box label {
+  font-size: 20px;
+}
+
+.login-d .input-box button {
+  background-color: orange;
+  width: 200px;
+  height: 50px;
+  display: block;
+}
+
+.login-d .input-box button:hover {
+  background-color: brown;
+  cursor: pointer;
+}
+
+.login-d .input-box a {
+  margin-left: 220px;
+  text-decoration: none;
+  color: black;
+}
+
+footer {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  color: white;
+  background-color: rgba(11, 24, 69, 0.9);
+  text-align: left;
+}
+
+.container {
+  margin-bottom: 40px;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.headingPera {
+  width: 400px;
+  align-items: center;
+  justify-content: center;
+  padding-top: 60px;
+}
+
+.furn {
+  padding: 20px;
+  text-align: left;
+  border: 2px solid orange;
+  margin-bottom: 40px;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: orange;
+  margin-right: 250px;
+}
+
+.container .headingPera p {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.days {
+  display: flex;
+  gap: 40px;
+}
+
+.container a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 20px;
+}
+
+.container a:hover {
+  color: orange;
+  border-bottom: 1px solid orange;
+}
+
+footer .p1 {
+  text-align: center;
+  color: white;
+  padding-bottom: 60px;
+}/*# sourceMappingURL=loginstyle.css.map */
